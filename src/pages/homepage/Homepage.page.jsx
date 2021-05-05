@@ -3,10 +3,12 @@ import { Directory } from '../../components/directory/Directory.component'
 
 import './Homepage.style.scss';
 
-export const Homepage = () => {
+const Homepage = () => {
   return (
     <div className='homepage'>
       <Directory></Directory>
     </div>
   )
 }
+
+export default Homepage;

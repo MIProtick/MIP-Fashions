@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CollectionPreview from '../../components/collection-preview/CollectionPreview.component';
 import { ShopData } from './ShopData.js';
 
-export class Shop extends Component {
+class Shop extends Component {
   constructor() {
     super();
 
