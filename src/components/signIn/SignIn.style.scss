@@ -1,6 +1,9 @@
 .sign-in{
     display: flex;
     flex-direction: column;
+    max-width: 50%;
+    width: 35%;
+    margin: 0 5px 20px 0;
     
     .title{
         margin:10px 0
@@ -8,6 +11,7 @@
     
     .button-box{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 }
