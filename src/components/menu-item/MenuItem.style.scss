@@ -1,3 +1,10 @@
+@import '../../assets/responsiveFont.scss';
+
+$min_width: 320px;
+$max_width: 1200px;
+$min_font: 10px;
+$max_font: 22px;
+
 .menu-item {
   min-width: 30%;
   height: 18vw;
@@ -42,7 +49,7 @@
 
   .content {
     // height: 90px;
-    padding: 0 25px;
+    // padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,14 +66,16 @@
       font-weight: bold;
       margin-bottom: 4px;
       margin-top: 4px;
-      font-size: 1.5vw;
+      // font-size: 1.5vw;
+      @include fluid-type($min_width, $max_width, 4px, 22px);
       color: #4a4a4a;
     }
 
     .subtitle {
       font-weight: lighter;
       // font-size: 16px;
-      font-size: 1vw;
+      // font-size: 1vw;
+      @include fluid-type($min_width, $max_width, 2.5px, 16px);
     }
   }
 }
