@@ -8,21 +8,28 @@
   border: 1px solid black;
   background-color: white;
   top: 90px;
-  right: 40px;
+  right: 6%;
   z-index: 5;
 
   .cart-items {
     // height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
-
-  button {
-    min-width: 180px;
-    width: 70%;
+  
+  .cart-checkout-btn{
     margin: auto auto 0 auto;
-    height: 42px;
-    padding: 0;
+    padding-top: 5px;
+    
+    button {
+      min-width: 180px;
+      width: 70%;
+      height: 42px;
+      max-height: 9vw;
+      padding: 0;
+      opacity: 0.8;
+    }
   }
 }

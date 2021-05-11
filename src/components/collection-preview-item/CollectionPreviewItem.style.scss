@@ -39,7 +39,7 @@ $max_customBtn_font: 16px;
     position: absolute;
     // top: 255px;
     min-width: auto;
-    padding: 0 2vw;
+    padding: 0 1vw;
     bottom: 10%;
     // display: none;
     @include fluid-type($min_width, $max_width, $min_customBtn_font, $max_customBtn_font);
