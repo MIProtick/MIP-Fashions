@@ -13,6 +13,7 @@ $max_font: 28px;
 
   .title {
     // font-size: 28px;
+    cursor: pointer;
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
     margin-bottom: 25px;
   }
